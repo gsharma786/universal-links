@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.innow8.crypto8",
+    "sha256_cert_fingerprints":
+    ["21:20:40:CB:A9:ED:A8:92:B4:86:3D:AB:83:46:E9:97:D3:DF:46:D4:B1:AB:E7:C9:FD:F3:0E:12:55:57:0C:C6"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://crypto8.herokuapp.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.innow8.crypto8",
+    "sha256_cert_fingerprints":
+    ["21:20:40:CB:A9:ED:A8:92:B4:86:3D:AB:83:46:E9:97:D3:DF:46:D4:B1:AB:E7:C9:FD:F3:0E:12:55:57:0C:C6"]
+  }
+}]
